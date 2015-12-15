@@ -6,14 +6,14 @@
 <head>
     <title>Header Mode</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <!--<link href="views/style.css" rel="stylesheet" type="text/css" />
-    <link rel="Shortcut Icon" href="Photos/AdopteUnGeek.png">-->
+    <link href="views/style.css" rel="stylesheet" type="text/css" />
+    <link rel="Shortcut Icon" href="Photos/AdopteUnGeek.png">
 </head>
 <body>
 
 <header>
 
-    <!--<div class="entetelogo"><a href="accueil.smarty.tpl"><img src="photos/AdopteUnGeek.png" alt="logo"></a></div>-->
+    <div class="entetelogo"><a href="accueil.html"><img src="photos/AdopteUnGeek.png" alt="logo"></a></div>
 
     <ul id="nav">
 	<li><a href="accueil.html">Accueil</a></li>

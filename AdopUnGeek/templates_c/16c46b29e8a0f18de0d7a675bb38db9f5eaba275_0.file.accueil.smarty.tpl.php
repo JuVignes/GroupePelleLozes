@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-12-12 09:49:43
+<?php /* Smarty version 3.1.27, created on 2015-12-15 02:04:05
          compiled from "C:\Bitnami\wampstack-5.6.15-0\apache2\htdocs\GroupePelleLozes\AdopUnGeek\views\accueil.smarty.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:31512566c5e377eb956_74747295%%*/
+/*%%SmartyHeaderCode:22813566fe595dfe371_69244296%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -15,7 +15,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e6047072256c9826195f58f734b6f80d256e2970' => 
     array (
       0 => 'C:\\Bitnami\\wampstack-5.6.15-0\\apache2\\htdocs\\GroupePelleLozes\\AdopUnGeek\\views\\template.smarty.tpl',
-      1 => 1449942570,
+      1 => 1450173816,
       2 => 'file',
     ),
     '3cc9ba3f5fc91feb6e225edea562cdb7f43dc840' => 
@@ -25,16 +25,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'string',
     ),
   ),
-  'nocache_hash' => '31512566c5e377eb956_74747295',
+  'nocache_hash' => '22813566fe595dfe371_69244296',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_566c5e378076c8_07984100',
+  'unifunc' => 'content_566fe595e21878_21529561',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_566c5e378076c8_07984100')) {
-function content_566c5e378076c8_07984100 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_566fe595e21878_21529561')) {
+function content_566fe595e21878_21529561 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '31512566c5e377eb956_74747295';
+$_smarty_tpl->properties['nocache_hash'] = '22813566fe595dfe371_69244296';
 ?>
 <!DOCTYPE html>
 
@@ -44,14 +44,14 @@ $_smarty_tpl->properties['nocache_hash'] = '31512566c5e377eb956_74747295';
 <head>
     <title>Header Mode</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <!--<link href="views/style.css" rel="stylesheet" type="text/css" />
-    <link rel="Shortcut Icon" href="Photos/AdopteUnGeek.png">-->
+    <link href="views/style.css" rel="stylesheet" type="text/css" />
+    <link rel="Shortcut Icon" href="Photos/AdopteUnGeek.png">
 </head>
 <body>
 
 <header>
 
-    <!--<div class="entetelogo"><a href="accueil.smarty.tpl"><img src="photos/AdopteUnGeek.png" alt="logo"></a></div>-->
+    <div class="entetelogo"><a href="accueil.html"><img src="photos/AdopteUnGeek.png" alt="logo"></a></div>
 
     <ul id="nav">
 	<li><a href="accueil.html">Accueil</a></li>
@@ -75,7 +75,7 @@ $_smarty_tpl->properties['nocache_hash'] = '31512566c5e377eb956_74747295';
 
 <main>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '31512566c5e377eb956_74747295';
+$_smarty_tpl->properties['nocache_hash'] = '22813566fe595dfe371_69244296';
 ?>
 
     <p>accueil</p>
