@@ -11,6 +11,6 @@ class adoptController {
 
     public static function get_inscription() {
         global $smarty;
-        $smarty->display('views/Inscription.smarty.tpl');
+        $smarty->display('views/inscription.smarty.tpl');
     }
 }

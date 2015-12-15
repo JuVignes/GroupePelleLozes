@@ -1,7 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: françois
- * Date: 12/12/2015
- * Time: 18:54
- */
+
+
+function form_inscription(){}
+function form_recherche_ingenieur(){}
+function form_recherche_travail(){}
+function form_Editer_profil_ingenieur(){}
