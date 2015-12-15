@@ -3,7 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>SiteManagement</title>
-    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet" href="../AdopUnGeek/views/style.css" type="text/css"/>
 </head>
 <body>
 
