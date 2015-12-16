@@ -10,9 +10,9 @@ class Profesionnel extends Model
         'nom',
         'prenom',
     ];
-    
-    function Recherche_competence($competence){
-        Model::select('id_comepetence');
+
+    function Recherche_competence($attributes){
+        Model::select($attributes['id_competence']);
     }
 
 }
