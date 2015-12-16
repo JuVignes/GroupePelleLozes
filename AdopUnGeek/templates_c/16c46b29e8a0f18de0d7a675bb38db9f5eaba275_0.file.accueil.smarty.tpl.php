@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-12-15 02:04:05
+<?php /* Smarty version 3.1.27, created on 2015-12-16 09:59:20
          compiled from "C:\Bitnami\wampstack-5.6.15-0\apache2\htdocs\GroupePelleLozes\AdopUnGeek\views\accueil.smarty.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:22813566fe595dfe371_69244296%%*/
+/*%%SmartyHeaderCode:114145671a678cde0d2_35883613%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,32 +9,32 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '16c46b29e8a0f18de0d7a675bb38db9f5eaba275' => 
     array (
       0 => 'C:\\Bitnami\\wampstack-5.6.15-0\\apache2\\htdocs\\GroupePelleLozes\\AdopUnGeek\\views\\accueil.smarty.tpl',
-      1 => 1449932801,
+      1 => 1450288722,
       2 => 'file',
     ),
     'e6047072256c9826195f58f734b6f80d256e2970' => 
     array (
       0 => 'C:\\Bitnami\\wampstack-5.6.15-0\\apache2\\htdocs\\GroupePelleLozes\\AdopUnGeek\\views\\template.smarty.tpl',
-      1 => 1450173816,
+      1 => 1450287853,
       2 => 'file',
     ),
-    '3cc9ba3f5fc91feb6e225edea562cdb7f43dc840' => 
+    'accfcfcd2e3a95d9497419641e91ad38700a6536' => 
     array (
-      0 => '3cc9ba3f5fc91feb6e225edea562cdb7f43dc840',
+      0 => 'accfcfcd2e3a95d9497419641e91ad38700a6536',
       1 => 0,
       2 => 'string',
     ),
   ),
-  'nocache_hash' => '22813566fe595dfe371_69244296',
+  'nocache_hash' => '114145671a678cde0d2_35883613',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_566fe595e21878_21529561',
+  'unifunc' => 'content_5671a678d073e1_44003069',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_566fe595e21878_21529561')) {
-function content_566fe595e21878_21529561 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_5671a678d073e1_44003069')) {
+function content_5671a678d073e1_44003069 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '22813566fe595dfe371_69244296';
+$_smarty_tpl->properties['nocache_hash'] = '114145671a678cde0d2_35883613';
 ?>
 <!DOCTYPE html>
 
@@ -44,8 +44,9 @@ $_smarty_tpl->properties['nocache_hash'] = '22813566fe595dfe371_69244296';
 <head>
     <title>Header Mode</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href="views/style.css" rel="stylesheet" type="text/css" />
+    
     <link rel="Shortcut Icon" href="Photos/AdopteUnGeek.png">
+
 </head>
 <body>
 
@@ -75,10 +76,21 @@ $_smarty_tpl->properties['nocache_hash'] = '22813566fe595dfe371_69244296';
 
 <main>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '22813566fe595dfe371_69244296';
+$_smarty_tpl->properties['nocache_hash'] = '114145671a678cde0d2_35883613';
 ?>
 
-    <p>accueil</p>
+    <h1>Site de Referencement</h1>
+
+    <h2>Objectif</h2>
+    <br>
+    <p>Notre objectif est de permettre la visibilité de tous les ingénieurs informatique dans le monde pour facilité la recherche pour les RH</p>
+    <br>
+    <p>Inscription simple, où vous pourrez éditez votre profil de manière efficace.
+        Votre spécialisation et vos compétences. Ainsi les recruteurs n'aurons plus qu'a faire une recherche d'une compétences ou domaine précis</p>
+    <br>
+    <br>
+    <br>
+    <h3>Site en construction</h3>
 
 </main>
 

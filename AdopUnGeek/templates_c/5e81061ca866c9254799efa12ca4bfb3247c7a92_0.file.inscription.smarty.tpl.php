@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-12-15 02:04:04
+<?php /* Smarty version 3.1.27, created on 2015-12-16 09:49:32
          compiled from "C:\Bitnami\wampstack-5.6.15-0\apache2\htdocs\GroupePelleLozes\AdopUnGeek\views\inscription.smarty.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:967566fe5944f5627_56222264%%*/
+/*%%SmartyHeaderCode:79625671a42cc32223_16068420%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,32 +9,38 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '5e81061ca866c9254799efa12ca4bfb3247c7a92' => 
     array (
       0 => 'C:\\Bitnami\\wampstack-5.6.15-0\\apache2\\htdocs\\GroupePelleLozes\\AdopUnGeek\\views\\inscription.smarty.tpl',
-      1 => 1449943369,
+      1 => 1450288121,
       2 => 'file',
     ),
     'e6047072256c9826195f58f734b6f80d256e2970' => 
     array (
       0 => 'C:\\Bitnami\\wampstack-5.6.15-0\\apache2\\htdocs\\GroupePelleLozes\\AdopUnGeek\\views\\template.smarty.tpl',
-      1 => 1450173816,
+      1 => 1450287853,
       2 => 'file',
     ),
-    '3f7217fe97ba3adf4121234ec89a573f155da97c' => 
+    'c6ad185535fe9f800113bb0658fb20b219cf822e' => 
     array (
-      0 => '3f7217fe97ba3adf4121234ec89a573f155da97c',
+      0 => 'c6ad185535fe9f800113bb0658fb20b219cf822e',
+      1 => 0,
+      2 => 'string',
+    ),
+    '97811ec17254f843b9ccc685b61098794b8ac1f3' => 
+    array (
+      0 => '97811ec17254f843b9ccc685b61098794b8ac1f3',
       1 => 0,
       2 => 'string',
     ),
   ),
-  'nocache_hash' => '967566fe5944f5627_56222264',
+  'nocache_hash' => '79625671a42cc32223_16068420',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_566fe59451e431_59618970',
+  'unifunc' => 'content_5671a42cc669f8_36450214',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_566fe59451e431_59618970')) {
-function content_566fe59451e431_59618970 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_5671a42cc669f8_36450214')) {
+function content_5671a42cc669f8_36450214 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '967566fe5944f5627_56222264';
+$_smarty_tpl->properties['nocache_hash'] = '79625671a42cc32223_16068420';
 ?>
 <!DOCTYPE html>
 
@@ -44,8 +50,12 @@ $_smarty_tpl->properties['nocache_hash'] = '967566fe5944f5627_56222264';
 <head>
     <title>Header Mode</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href="views/style.css" rel="stylesheet" type="text/css" />
+    <?php
+$_smarty_tpl->properties['nocache_hash'] = '79625671a42cc32223_16068420';
+?>
+<link href="views/styleInscription.css" rel="stylesheet" type="text/css" />
     <link rel="Shortcut Icon" href="Photos/AdopteUnGeek.png">
+
 </head>
 <body>
 
@@ -75,11 +85,56 @@ $_smarty_tpl->properties['nocache_hash'] = '967566fe5944f5627_56222264';
 
 <main>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '967566fe5944f5627_56222264';
+$_smarty_tpl->properties['nocache_hash'] = '79625671a42cc32223_16068420';
 ?>
 
-    <?php echo form_inscription();?>
+        <aside>
 
+            <div class="texte">
+
+                <address>
+                    <h2>BLABLABLABLA</h2>
+                    BLABLABlA<br/>
+                    BLABLABLA<br/>
+                    BLABLABLA<br/>
+                </address>
+
+                <ul>
+                    <li class="phone">
+                        06 94 12 25 53
+                    </li>
+                    <li class="email">
+                        ADOPTEUNGEEK@mail.com
+                    </li>
+                </ul>
+
+
+                </ul>
+            </div>
+        </aside>
+    </header>
+
+    <div class="contact">
+
+        <h1>Contact us</h1>
+
+        <?php echo form_inscription();?>
+
+
+            <br>
+
+            <input type="submit" name="Your message" Class="Connexion" value="Connexion"/>
+
+            <br>
+
+
+        </form>
+
+
+    </div>
+
+    </body>
+    </html>
 
 </main>
 

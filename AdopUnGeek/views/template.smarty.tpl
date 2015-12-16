@@ -6,8 +6,9 @@
 <head>
     <title>Header Mode</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href="views/style.css" rel="stylesheet" type="text/css" />
+    {block 'header'}{/block}
     <link rel="Shortcut Icon" href="Photos/AdopteUnGeek.png">
+
 </head>
 <body>
 
